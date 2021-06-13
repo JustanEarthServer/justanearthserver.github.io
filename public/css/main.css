@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("/font/minecraft.ttf");
+}
+
+.navbar-logo {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+
+.minecraft-font {
+    font-family: "Minecraft", sans-serif;
+}
+
+.nav-link {
+    font-family: "Minecraft", sans-serif;
+    font-size: 1.25rem;
+}
+
+.fullscreen-iframe {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.no-scroll {
+    overflow: hidden;
+}

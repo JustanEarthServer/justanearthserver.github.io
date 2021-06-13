@@ -1,0 +1,16 @@
+{
+  "name": "jes.earth",
+  "version": "1.0.0",
+  "description": "Website for the jes.earth Minecraft server",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "author": "Dmitry Pleshkov",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  }
+}
