@@ -15,6 +15,13 @@
 .nav-link {
     font-family: "Minecraft", sans-serif;
     font-size: 1.25rem;
+    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black;
+    color: white !important;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: lightgray !important;
 }
 
 .fullscreen-iframe {
@@ -35,4 +42,12 @@
 .onhover-underline:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+.text-shadow {
+    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black;
+}
+
+.h-30 {
+    height: 30vh;
 }
