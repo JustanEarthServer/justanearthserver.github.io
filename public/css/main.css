@@ -51,3 +51,19 @@
 .h-30 {
     height: 30vh;
 }
+
+.h-40 {
+    height: 40vh;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
+.object-fit-scale-down {
+    object-fit: scale-down;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
