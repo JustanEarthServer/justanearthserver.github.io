@@ -6,5 +6,33 @@
 <body class="bg-dark">
 <div class="container">
     <%- include("./partials/navbar") %>
+    <div class="p-5 mb-4 rounded-3 server-background text-light">
+        <div class="container-fluid py-5 text-center">
+            <h1 class="display-5 minecraft-font">something something ad</h1>
+            <p class="minecraft-font">something something description</p>
+            <br>
+            <button class="btn btn-lg btn-outline-light" id="javaIPButton">Java IP: jes.earth</button>
+            <br>
+            <sub id="bedrockIPButton" class="onhover-underline">Bedrock IP: 162.55.0.248:25566</sub>
+        </div>
+    </div>
 </div>
+<script>
+    document.getElementById("javaIPButton").addEventListener("click", () => {
+        copyTextToClipboard("jes.earth");
+        let oldText = document.getElementById("javaIPButton").innerText;
+        document.getElementById("javaIPButton").innerText = "Copied!";
+        setTimeout(() => {
+            document.getElementById("javaIPButton").innerText = oldText;
+        }, 500);
+    });
+    document.getElementById("bedrockIPButton").addEventListener("click", () => {
+        copyTextToClipboard("162.55.0.248:25566");
+        let oldText = document.getElementById("bedrockIPButton").innerText;
+        document.getElementById("bedrockIPButton").innerText = "Copied!";
+        setTimeout(() => {
+            document.getElementById("bedrockIPButton").innerText = oldText;
+        }, 500);
+    });
+</script>
 </body>

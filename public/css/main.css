@@ -26,3 +26,13 @@
 .no-scroll {
     overflow: hidden;
 }
+
+.server-background {
+    background-image: url("https://cdn.discordapp.com/splashes/767803717549948940/a5d734981dbe1488c6d93d4e59646dd4.jpg?size=2048");
+    background-position: center;
+}
+
+.onhover-underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
