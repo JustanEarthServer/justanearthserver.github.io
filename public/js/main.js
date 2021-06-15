@@ -21,6 +21,7 @@ let fallbackCopyTextToClipboard = function(text) {
 
     document.body.removeChild(textArea);
 }
+
 let copyTextToClipboard = function(text) {
     if (!navigator.clipboard) {
         fallbackCopyTextToClipboard(text);
@@ -32,6 +33,7 @@ let copyTextToClipboard = function(text) {
         console.error('Async: Could not copy text: ', err);
     });
 }
+
 document.getElementById("javaIPButton").addEventListener("click", () => {
     copyTextToClipboard("jes.earth");
     let oldText = document.getElementById("javaIPButton").innerText;
@@ -40,6 +42,7 @@ document.getElementById("javaIPButton").addEventListener("click", () => {
         document.getElementById("javaIPButton").innerText = oldText;
     }, 500);
 });
+
 document.getElementById("bedrockIPButton").addEventListener("click", () => {
     copyTextToClipboard("162.55.0.248:25566");
     let oldText = document.getElementById("bedrockIPButton").innerText;
@@ -48,3 +51,15 @@ document.getElementById("bedrockIPButton").addEventListener("click", () => {
         document.getElementById("bedrockIPButton").innerText = oldText;
     }, 500);
 });
+
+let angle = 0;
+
+let moveBackground = function() {
+    let dx = Math.cos(angle);
+    let dy = Math.sin(angle);
+    document.querySelector(".server-background").style.backgroundPosition = `${50 + 2*dx}% ${50 + 2*dy}%`;
+    angle += 0.002;
+    requestAnimationFrame(moveBackground);
+}
+
+requestAnimationFrame(moveBackground);

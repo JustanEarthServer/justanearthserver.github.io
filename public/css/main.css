@@ -44,8 +44,16 @@
     cursor: pointer;
 }
 
+.onhover-underline {
+    text-decoration: none;
+}
+
 .text-shadow {
     text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black;
+}
+
+.text-shadow-small {
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black;
 }
 
 .h-30 {
@@ -76,4 +84,8 @@
     .text-right-desktop {
         text-align: right;
     }
+}
+
+#javaIPButton:hover {
+    text-shadow: none;
 }
