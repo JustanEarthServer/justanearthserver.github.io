@@ -89,3 +89,7 @@
 #javaIPButton:hover {
     text-shadow: none;
 }
+
+.fade-in {
+    opacity: 0;
+}
