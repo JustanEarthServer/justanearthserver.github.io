@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
 :root {
     color-scheme: dark;
 }
@@ -96,4 +98,19 @@
 
 .fade-in {
     opacity: 0;
+}
+
+.onhover-gray:hover {
+    color: lightgray !important;
+}
+
+.social-navbar {
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 766px) {
+    .social-navbar {
+        font-size: 2rem;
+    }
 }
