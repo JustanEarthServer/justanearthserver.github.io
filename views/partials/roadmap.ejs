@@ -1,30 +1,48 @@
-<div class="row fade-in">
-    <div class="col-md-12">
+<h1 class="minecraft-font text-shadow text-light text-center pt-5 fade-in">Our Roadmap</h1>
+<br>
+<div id="timeline">
+
+</div>
+<script>
+    let timeline = [
+        {
+            "date": "Summer 2021",
+            "content": `<h3>Something</h3>
+                        <p>Something description</p>`
+        },
+        {
+            "date": "Fall 2021",
+            "content": `<h3>Something</h3>
+                        <p>Something description</p>`
+        },
+        {
+            "date": "Winter 2021",
+            "content": `<h3>Something</h3>
+                        <p>Something description</p>`
+        },
+        {
+            "date": "Spring 2022",
+            "content": `<h3>Something</h3>
+                        <p>Something description</p>`
+        },
+    ];
+    for (let event of timeline) {
+        let div = document.createElement("div");
+        div.classList.add("row");
+        div.classList.add("fade-in");
+        div.innerHTML = `<div class="col-md-12">
         <div class="card bg-dark text-light border-0 minecraft-font">
-            <div class="card-body">
-                <h1 class="card-title text-center minecraft-font text-shadow">Our Roadmap</h1>
-                <br>
+            <div class="card-body py-0">
                 <div id="content">
-                    <ul class="timeline">
-                        <li class="event" data-date="Summer 2021">
-                            <h3>Something</h3>
-                            <p>Something description</p>
-                        </li>
-                        <li class="event" data-date="Fall 2021">
-                            <h3>Something</h3>
-                            <p>Something description</p>
-                        </li>
-                        <li class="event" data-date="Winter 2022">
-                            <h3>Something</h3>
-                            <p>Something description</p>
-                        </li>
-                        <li class="event" data-date="Spring 2022">
-                            <h3>Something</h3>
-                            <p>Something description</p>
+                    <ul class="timeline py-2 pt-4">
+                        <li class="event fade-in" data-date="${event.date}">
+                            ${event.content}
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-    </div>
-</div>
+    </div>`;
+        document.getElementById("timeline").appendChild(div);
+    }
+</script>
