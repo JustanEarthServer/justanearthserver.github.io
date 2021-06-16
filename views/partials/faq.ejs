@@ -1,17 +1,16 @@
-<div class="row minecraft-font text-light text-shadow pt-5 fade-in" id="faq">
+<h1 class="text-center fade-in text-light minecraft-font text-shadow pt-5">Frequently Asked Questions</h1>
+<div class="row minecraft-font text-light text-shadow fade-in" id="faq">
     <div class="col-sm-2">
 
     </div>
-    <div class="col-sm-8">
-        <h1 class="text-center">Frequently Asked Questions</h1>
-        <br>
-        <h3>Q: Something something question?</h3>
-        <p>A: Something something answer</p>
-        <br>
-        <h3>Q: Something something another question?</h3>
-        <p>A: Something something another answer</p>
+    <div class="col-sm-8" id="faqQuestions">
     </div>
     <div class="col-sm-2">
 
     </div>
 </div>
+<script>
+    for (let question of FAQ) {
+        document.getElementById("faqQuestions").insertAdjacentHTML("beforeend", `<br><h3>${question.question}</h3><p>${question.answer}</p>`);
+    }
+</script>

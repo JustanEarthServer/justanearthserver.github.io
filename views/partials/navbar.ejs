@@ -1,38 +1,33 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="/">
-            <img class="navbar-logo" src="img/jes_earth.png" alt="jes.earth">
+            <img class="navbar-logo" src="" alt="jes.earth">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item text-shadow">
-                    <a class="link social-navbar onhover-gray px-1" href="http://discord.jes.earth/"><i class="fab fa-discord"></i></a>
-                    <a class="link social-navbar onhover-gray px-1" href="https://www.reddit.com/r/justanearthserver/"><i class="fab fa-reddit"></i></a>
-                    <a class="link social-navbar onhover-gray px-1" href="https://tiktok.com/@justanearthserver"><i class="fab fa-tiktok"></i></a>
-                    <a class="link social-navbar onhover-gray px-1" href="https://www.instagram.com/justanearthserver/"><i class="fab fa-instagram"></i></a>
-                    <a class="link social-navbar onhover-gray px-1" href="https://youtube.com/channel/UC_UnrcztzHIedur7wr7LULg"><i class="fab fa-youtube"></i></a>
+                <li class="nav-item text-shadow" id="headerSocials">
                 </li>
             </ul>
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link link" href="http://map.jes.earth/">Map</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link" href="/rules">Rules</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link" href="https://jes.tebex.io">Shop</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link" href="https://discord.gg/jes">Discord</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link link" href="#faq">FAQ</a>
-                </li>
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0" id="headerLinks">
             </ul>
         </div>
     </div>
 </nav>
+<script>
+    document.querySelector(".navbar-logo").setAttribute("src", HEADER.brandIcon.url);
+    for (let social of HEADER.socialMedia) {
+        document.getElementById("headerSocials").insertAdjacentHTML("beforeend", `
+        <a class="link social-navbar onhover-gray px-1" href="${social.url}"><i class="fab fa-${social.icon}"></i></a>
+        `);
+    }
+    for (let link of HEADER.links) {
+        document.getElementById("headerLinks").insertAdjacentHTML("beforeend", `
+        <li class="nav-item">
+            <a class="nav-link link" href="${link.url}">${link.text}</a>
+        </li>
+        `);
+    }
+</script>

@@ -2,11 +2,16 @@
 
 :root {
     color-scheme: dark;
+    -webkit-color-scheme: dark;
+}
+
+.rem-2 {
+    font-size: 2rem;
 }
 
 @font-face {
     font-family: "Minecraft";
-    src: url("/font/minecraft.ttf");
+    src: url("../font/minecraft.ttf");
 }
 
 .navbar-logo {
@@ -41,8 +46,9 @@
 }
 
 .server-background {
-    background-image: url("https://cdn.discordapp.com/splashes/767803717549948940/a5d734981dbe1488c6d93d4e59646dd4.jpg?size=2048");
+    /*background-image: url("https://cdn.discordapp.com/splashes/767803717549948940/a5d734981dbe1488c6d93d4e59646dd4.jpg?size=2048");*/
     background-position: center;
+    background-size: cover;
 }
 
 .onhover-underline:hover {
@@ -80,6 +86,18 @@
 
 .object-fit-cover {
     object-fit: cover;
+}
+
+.object-fit-fill {
+    object-fit: fill;
+}
+
+.object-fit-none {
+    object-fit: none;
+}
+
+.object-fit-contain {
+    object-fit: contain;
 }
 
 .blur-bg {

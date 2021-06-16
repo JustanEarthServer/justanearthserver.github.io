@@ -1,0 +1,14 @@
+<footer class="text-center text-light fade-in text-shadow rem-2" id="footer">
+</footer>
+<br>
+<script>
+    for (let social of SOCIAL_MEDIA_FOOTER) {
+        document.getElementById("footer").insertAdjacentHTML("beforeend", `
+        <span class="badge rounded-pill bg-dark">
+            <a class="text-light onhover-gray" href="${social.url}">
+                <i class="fab fa-${social.icon}"></i>
+            </a>
+        </span>
+        `);
+    }
+</script>

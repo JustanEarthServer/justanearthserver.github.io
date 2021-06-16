@@ -1,32 +1,10 @@
 <h1 class="minecraft-font text-shadow text-light text-center pt-5 fade-in">Our Roadmap</h1>
 <br>
-<div id="timeline">
+<div id="timeline" class="text-shadow">
 
 </div>
 <script>
-    let timeline = [
-        {
-            "date": "Summer 2021",
-            "content": `<h3>Something</h3>
-                        <p>Something description</p>`
-        },
-        {
-            "date": "Fall 2021",
-            "content": `<h3>Something</h3>
-                        <p>Something description</p>`
-        },
-        {
-            "date": "Winter 2021",
-            "content": `<h3>Something</h3>
-                        <p>Something description</p>`
-        },
-        {
-            "date": "Spring 2022",
-            "content": `<h3>Something</h3>
-                        <p>Something description</p>`
-        },
-    ];
-    for (let event of timeline) {
+    for (let event of TIMELINE) {
         let div = document.createElement("div");
         div.classList.add("row");
         div.classList.add("fade-in");
@@ -45,4 +23,16 @@
     </div>`;
         document.getElementById("timeline").appendChild(div);
     }
+    let css = document.createElement("style");
+    css.innerHTML = `
+    .timeline {
+        border-left: 3px solid ${TIMELINE_STYLE.lineColor} !important;
+        background: ${TIMELINE_STYLE.backgroundColor} !important;
+    }
+    .timeline .event:after {
+        -webkit-box-shadow: 0 0 0 3px ${TIMELINE_STYLE.lineColor} !important;
+        box-shadow: 0 0 0 3px ${TIMELINE_STYLE.lineColor} !important;
+    }
+    `
+    document.body.appendChild(css);
 </script>
