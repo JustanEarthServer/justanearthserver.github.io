@@ -122,8 +122,16 @@ const IMAGE_TILES = [
         "imagePosition": "right",
         "imageURL": "https://scx2.b-cdn.net/gfx/news/hires/2019/2-forest.jpg",
         "html": `
-        <h1>Some other text</h1>
-        <p>A long paragraph here maybe</p>
+        <br>
+        <h2>something something</h2>
+        <p>something something</p>
+        <br>
+        <ul dir="rtl">
+            <li>Something</li>
+            <li>Something</li>
+            <li>Something</li>
+            <li>Something</li>
+        </ul>
         `,
         "object-fit": "cover"
     },

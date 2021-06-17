@@ -1,16 +1,18 @@
 <div class="p-5 mb-4 rounded-3 server-background text-light monster">
     <div class="container-fluid py-5 text-center">
-        <h1 class="display-5 minecraft-font text-shadow" id="topBigText">Just an Earth Server</h1>
-        <p class="minecraft-font text-shadow-small" id="topSmallText">yes, that's it...</p>
+        <h1 class="display-5 minecraft-font text-shadow" id="topBigText"></h1>
+        <p class="minecraft-font text-shadow-small" id="topSmallText"></p>
         <br>
-        <button class="btn btn-lg btn-outline-light minecraft-font blur-bg text-shadow-small" id="javaIPButton">Java IP: jes.earth</button>
+        <button class="btn btn-lg btn-outline-light minecraft-font blur-bg text-shadow-small" id="javaIPButton"></button>
         <br>
-        <sub id="bedrockIPButton" class="onhover-underline minecraft-font text-shadow-small">Bedrock IP: 162.55.0.248:25566</sub>
+        <sub id="bedrockIPButton" class="onhover-underline minecraft-font text-shadow-small"></sub>
         <br>
     </div>
 </div>
 <script>
     document.querySelector(".server-background").style.backgroundImage = `url("${TOP.backgroundURL}")`;
     document.getElementById("topBigText").innerText = TOP.bigText;
+    document.getElementById("javaIPButton").innerText = TOP.javaButton.text;
+    document.getElementById("bedrockIPButton").innerText = TOP.bedrockButton.text;
     document.getElementById("topSmallText").innerText = TOP.smallText;
 </script>
