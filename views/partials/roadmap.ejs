@@ -1,9 +1,10 @@
-<h1 class="minecraft-font text-light text-center pt-5 fade-in">Our Roadmap</h1>
+<h1 class="minecraft-font text-light text-center pt-5 fade-in" id="timelineTitle"></h1>
 <br>
 <div id="timeline">
 
 </div>
 <script>
+    document.getElementById("timelineTitle").innerText = TITLES.timeline;
     for (let event of TIMELINE) {
         let div = document.createElement("div");
         div.classList.add("row");

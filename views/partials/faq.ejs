@@ -1,4 +1,4 @@
-<h1 class="text-center fade-in text-light minecraft-font pt-5">Frequently Asked Questions</h1>
+<h1 class="text-center fade-in text-light minecraft-font pt-5" id="faqTitle"></h1>
 <div class="row minecraft-font text-light fade-in" id="faq">
     <div class="col-sm-2">
 
@@ -10,6 +10,7 @@
     </div>
 </div>
 <script>
+    document.getElementById("faqTitle").innerText = TITLES.FAQ;
     for (let question of FAQ) {
         document.getElementById("faqQuestions").insertAdjacentHTML("beforeend", `<br><h3>${question.question}</h3><p>${question.answer}</p>`);
     }

@@ -29,6 +29,11 @@
 // this config file is made in hopes of being sufficient for any future minor edits to the site such as
 // adding/editing links, images, text, and such, so long as no changes to the site's styling and skeleton are done.
 
+const TITLES = {
+    "timeline": "Our Roadmap",
+    "FAQ": "Frequently Asked Questions"
+}
+
 const HEADER = {
     "brandIcon": {
         "url": "../img/jes_earth.png"
