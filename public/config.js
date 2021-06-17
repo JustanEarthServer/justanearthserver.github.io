@@ -127,6 +127,25 @@ const IMAGE_TILES = [
         `,
         "object-fit": "cover"
     },
+    {
+        "imagePosition": "left",
+        "imageURL": "https://scx2.b-cdn.net/gfx/news/hires/2019/2-forest.jpg",
+        "html": `
+        <br>
+        <h2>something something</h2>
+        <p>something something</p>
+        <br>
+        <ul>
+            <li>Something</li>
+            <li>Something</li>
+            <li>Something</li>
+            <li>Something</li>
+        </ul>
+        `,
+        "objectFit": "cover",  // what to use to make the image fit. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+        // ^^^ supported options are fill, contain, cover, none, or scale-down.
+        "imageAlt": ""  // description of the image that on some devices shows when hovering mouse over
+    },
 ]
 
 const TIMELINE_STYLE = {

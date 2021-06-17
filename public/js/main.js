@@ -35,18 +35,18 @@ let copyTextToClipboard = function(text) {
 }
 
 document.getElementById("javaIPButton").addEventListener("click", () => {
-    copyTextToClipboard("jes.earth");
+    copyTextToClipboard(TOP.javaButton.ip);
     let oldText = document.getElementById("javaIPButton").innerText;
-    document.getElementById("javaIPButton").innerText = "Copied!";
+    document.getElementById("javaIPButton").innerText = TOP.javaButton.clickedText;
     setTimeout(() => {
         document.getElementById("javaIPButton").innerText = oldText;
     }, 500);
 });
 
 document.getElementById("bedrockIPButton").addEventListener("click", () => {
-    copyTextToClipboard("162.55.0.248:25566");
+    copyTextToClipboard(TOP.bedrockButton.ip);
     let oldText = document.getElementById("bedrockIPButton").innerText;
-    document.getElementById("bedrockIPButton").innerText = "Copied!";
+    document.getElementById("bedrockIPButton").innerText = TOP.bedrockButton.clickedText;
     setTimeout(() => {
         document.getElementById("bedrockIPButton").innerText = oldText;
     }, 500);
