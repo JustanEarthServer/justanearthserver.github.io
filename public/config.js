@@ -108,15 +108,13 @@ const IMAGE_TILES = [
         "imagePosition": "left",
         "imageURL": "https://scx2.b-cdn.net/gfx/news/hires/2019/2-forest.jpg",
         "html": `
-        <br>
-        <h2>Something about Team Trees</h2>
-        <p>A long paragraph here maybe</p>
-        <br>
+        <h2>Yes, that's it -</h2>
+        <p>Just an Earth Server is an Earth replica on Minecraft</p>
         <ul>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
+            <li>1:500 Earth Scale Minecraft server. To fit hundreds of players and towns.</li>
+            <li>The server has been up since April 2021, every day new players come together to build, trade and fight.</li>
+            <li>2 separate Earth servers, one peace-oriented and the other siege-war oriented, at JES no one is left out.</li>
+            <li>JES houses 870 towns, 113 nations, and growing.</li>
         </ul>
         `,
         "objectFit": "cover",  // what to use to make the image fit. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
@@ -127,10 +125,8 @@ const IMAGE_TILES = [
         "imagePosition": "right",
         "imageURL": "https://scx2.b-cdn.net/gfx/news/hires/2019/2-forest.jpg",
         "html": `
-        <br>
         <h2>something something</h2>
         <p>something something</p>
-        <br>
         <ul dir="rtl">
             <li>Something</li>
             <li>Something</li>
@@ -144,10 +140,8 @@ const IMAGE_TILES = [
         "imagePosition": "left",
         "imageURL": "https://scx2.b-cdn.net/gfx/news/hires/2019/2-forest.jpg",
         "html": `
-        <br>
         <h2>something something</h2>
         <p>something something</p>
-        <br>
         <ul>
             <li>Something</li>
             <li>Something</li>
