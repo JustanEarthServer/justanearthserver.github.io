@@ -88,14 +88,14 @@ const TOP = {
     "bigText": "Just an Earth Server",
     "smallText": "yes, that's it...",
     "javaButton": {
-        "text": "Java IP: jes.earth",
+        "text": "IP: jes.earth",
         "ip": "jes.earth",
         "clickedText": "Copied!"
     },
     "bedrockButton": {
-        "text": "Bedrock IP: 162.55.0.248:25566",
-        "ip": "162.55.0.248:25566",
-        "clickedText": "Copied!"
+        "text": "",
+        "ip": "jes.earth",
+        "clickedText": ""
     },
     "backgroundURL": "https://cdn.discordapp.com/splashes/767803717549948940/a5d734981dbe1488c6d93d4e59646dd4.jpg?size=2048"
 }
