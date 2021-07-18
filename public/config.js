@@ -120,7 +120,7 @@ const IMAGE_TILES = [
         "objectFit": "cover",  // what to use to make the image fit. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
         // ^^^ supported options are fill, contain, cover, none, or scale-down.
         "imageAlt": ""  // description of the image that on some devices shows when hovering mouse over
-    },
+    },/*
     {
         "imagePosition": "right",
         "imageURL": "https://scx2.b-cdn.net/gfx/news/hires/2019/2-forest.jpg",
@@ -135,7 +135,7 @@ const IMAGE_TILES = [
         </ul>
         `,
         "object-fit": "cover"
-    },
+    },*/
     {
         "imagePosition": "left",
         "imageURL": "https://scx2.b-cdn.net/gfx/news/hires/2019/2-forest.jpg",
