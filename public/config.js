@@ -106,18 +106,18 @@ const TOP = {
 const IMAGE_TILES = [
     {
         "imagePosition": "left",
-        "imageURL": "https://scx2.b-cdn.net/gfx/news/hires/2019/2-forest.jpg",
+        "imageURL": "https://cdn.discordapp.com/attachments/866405526543400970/866410306812379136/Capture_decran_2021-07-18_a_22.04.53.png",
         "html": `
         <h2>Yes, that's it -</h2>
-        <p>Just an Earth Server is an Earth replica on Minecraft</p>
+        <p>Just an Earth Server is a Minecraft network for Java and Bedrock players. We have multiple servers such as:</p>
         <ul>
-            <li>1:500 Earth Scale Minecraft server. To fit hundreds of players and towns.</li>
-            <li>The server has been up since April 2021, every day new players come together to build, trade and fight.</li>
-            <li>2 separate Earth servers, one peace-oriented and the other siege-war oriented, at JES no one is left out.</li>
-            <li>JES houses 870 towns, 113 nations, and growing.</li>
+            <li>1:500 Peaceful Earth Scale Minecraft Server. Great to build and find new friends!</li>
+            <li>1:500 Earth Scale Minecraft Server with wars. Great for experienced Minecraft players and strategists!</li>
+            <li>OneBlock server, similar to Skyblock servers!</li>
+            <li>And many more coming soon!</li>
         </ul>
         `,
-        "objectFit": "cover",  // what to use to make the image fit. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+        "objectFit": "scale-down",  // what to use to make the image fit. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
         // ^^^ supported options are fill, contain, cover, none, or scale-down.
         "imageAlt": ""  // description of the image that on some devices shows when hovering mouse over
     },/*
