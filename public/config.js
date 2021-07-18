@@ -138,15 +138,15 @@ const IMAGE_TILES = [
     },*/
     {
         "imagePosition": "left",
-        "imageURL": "https://scx2.b-cdn.net/gfx/news/hires/2019/2-forest.jpg",
+        "imageURL": "/img/jes_earth_tile.png",
         "html": `
-        <h2>something something</h2>
-        <p>something something</p>
+        <h2>Why our server?</h2>
+        <p>We are trying our best to provide a quality server:</p>
         <ul>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
-            <li>Something</li>
+            <li>Our servers have been running for over a year.</li>
+            <li>The network is hosted on powerful servers. Enjoy a "no-lag" experience!</li>
+            <li>Our community is known to be toxicity free.</li>
+            <li>We make polls to satisfy our community needs!</li>
         </ul>
         `,
         "objectFit": "cover",  // what to use to make the image fit. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
