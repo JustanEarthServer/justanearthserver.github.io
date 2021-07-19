@@ -155,6 +155,53 @@ const IMAGE_TILES = [
     },
 ]
 
+const JOIN_INSTRUCTIONS = [
+    {
+        "imageURL": "https://images-ext-1.discordapp.net/external/nx3sT7vyaQ1uGkr_iBoCgsReGV5cBuIgH3rrdjgUBIE/https/lh3.googleusercontent.com/EV8iaFpeMu3riNQfmsf83XW2T0QZIM01GX-vS0SkGY6PAC4FtWNsLlevM7e5mZVaNNjJLrKCSNTvNR7Iz5FmT5w%3Ds400",
+        "imageAlt": "",
+        "content": `<h2>Bedrock, Java and Pocket Edition</h2>
+                    <ul>
+                        <li>something</li>
+                        <li>something</li>
+                        <li>something</li>
+                        <li>something</li>
+                    </ul>`
+    },
+    {
+        "imageURL": "/img/Playstation.png",
+        "imageAlt": "",
+        "content": `<h2>PlayStation 4 and 5</h2>
+                    <ul>
+                        <li>something</li>
+                        <li>something</li>
+                        <li>something</li>
+                        <li>something</li>
+                    </ul>`
+    },
+    {
+        "imageURL": "https://images-ext-1.discordapp.net/external/y1R_GvAA9Zrr8y-TC3BoctQ7l3812Q0boAZI9GR6huk/http/pngimg.com/uploads/xbox/xbox_PNG17528.png?width=1346&height=1331",
+        "imageAlt": "",
+        "content": `<h2>Xbox</h2>
+                    <ul>
+                        <li>something</li>
+                        <li>something</li>
+                        <li>something</li>
+                        <li>something</li>
+                    </ul>`
+    },
+    {
+        "imageURL": "https://images-ext-1.discordapp.net/external/VAyCMWSF6CzvcNL_y1uOcP0vCrB5ZvjbuZ4RxKi5_7k/https/seeklogo.com/images/N/nintendo-switch-logo-38D4F5C7E7-seeklogo.com.png",
+        "imageAlt": "",
+        "content": `<h2>Nintendo Switch</h2>
+                    <ul>
+                        <li>something</li>
+                        <li>something</li>
+                        <li>something</li>
+                        <li>something</li>
+                    </ul>`
+    }
+]
+
 const TIMELINE_STYLE = {
     "lineColor": "#727cf5",
     "backgroundColor": "rgba(114, 124, 245, 0.09)"

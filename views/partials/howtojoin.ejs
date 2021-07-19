@@ -1,0 +1,23 @@
+<h1 class="minecraft-font text-light text-center pt-5 fade-in">How To Join</h1>
+<br>
+<div class="row text-light minecraft-font" id="joinInstructions">
+
+</div>
+<script>
+    for (let tile of JOIN_INSTRUCTIONS) {
+        document.getElementById("joinInstructions").insertAdjacentHTML("beforeend", `
+        <div class="col-sm-6 card bg-dark border-0 fade-in">
+            <div class="card-body bg-dark">
+                <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                        <img style="width: 10vw" src="${tile.imageURL}" alt="${tile.imageAlt}">
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                        ${tile.content}
+                    </div>
+                </div>
+            </div>
+        </div>
+        `)
+    }
+</script>
