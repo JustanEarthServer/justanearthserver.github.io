@@ -232,12 +232,28 @@ const TIMELINE = [
 
 const FAQ = [
     {
-        "question": "Q: Something something question?",
-        "answer": "A: Something something answer"
+        "question": "Q: How do I join a server from the lobby?",
+        "answer": "A: Just enter one of the many portals – yes, that's it..."
     },
     {
-        "question": "Q: Something something another question?",
-        "answer": "A: Something something another answer"
+        "question": "Q: Can I join the server using Bedrock or MCPE ?",
+        "answer": "A: Yes, any Minecraft platform can join."
+    },
+    {
+        "question": "Q: Can I join with a \"cracked\" account?",
+        "answer": "A: No, only paid accounts can join our network."
+    },
+    {
+        "question": "Q: What is the server version?",
+        "answer": "A: You can join using 1.16.5 or newer (up to 1.17.1)."
+    },
+    {
+        "question": "Q: I purchased a rank, how do I get it on Discord?",
+        "answer": "A: Do /link in the lobby, and send it to the main bot."
+    },
+    {
+        "question": "Q: I've caught someone breaking the rules, where can I report him? ",
+        "answer": `A: Join our support Discord and open a ticket : <a class="onhover-underline" href="https://discord.gg/8XvMCQuD26">https://discord.gg/8XvMCQuD26</a>.`
     },
 ];
 
