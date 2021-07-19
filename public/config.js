@@ -236,7 +236,7 @@ const FAQ = [
         "answer": "A: Just enter one of the many portals – yes, that's it..."
     },
     {
-        "question": "Q: Can I join the server using Bedrock or MCPE ?",
+        "question": "Q: Can I join the server using Bedrock or MCPE?",
         "answer": "A: Yes, any Minecraft platform can join."
     },
     {
@@ -252,7 +252,7 @@ const FAQ = [
         "answer": "A: Do /link in the lobby, and send it to the main bot."
     },
     {
-        "question": "Q: I've caught someone breaking the rules, where can I report him? ",
+        "question": "Q: I've caught someone breaking the rules, where can I report him?",
         "answer": `A: Join our support Discord and open a ticket : <a class="onhover-underline" href="https://discord.gg/8XvMCQuD26">https://discord.gg/8XvMCQuD26</a>.`
     },
 ];
