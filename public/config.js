@@ -159,12 +159,12 @@ const JOIN_INSTRUCTIONS = [
     {
         "imageURL": "https://images-ext-1.discordapp.net/external/nx3sT7vyaQ1uGkr_iBoCgsReGV5cBuIgH3rrdjgUBIE/https/lh3.googleusercontent.com/EV8iaFpeMu3riNQfmsf83XW2T0QZIM01GX-vS0SkGY6PAC4FtWNsLlevM7e5mZVaNNjJLrKCSNTvNR7Iz5FmT5w%3Ds400",
         "imageAlt": "",
-        "content": `<h2>Bedrock, Java and Pocket Edition</h2>
+        "content": `<h2>Bedrock and Java Edition</h2>
                     <ul>
-                        <li>something</li>
-                        <li>something</li>
-                        <li>something</li>
-                        <li>something</li>
+                        <li>Go to the Multiplayer/Server tab</li>
+                        <li>Click "Add Server"</li>
+                        <li>IP is jes.earth</li>
+                        <li>For Bedrock, the port is 19132</li>
                     </ul>`
     },
     {
@@ -172,10 +172,9 @@ const JOIN_INSTRUCTIONS = [
         "imageAlt": "",
         "content": `<h2>PlayStation 4 and 5</h2>
                     <ul>
-                        <li>something</li>
-                        <li>something</li>
-                        <li>something</li>
-                        <li>something</li>
+                        <li>Follow the steps in <a href="https://youtu.be/q9vboZUxFog">this video</a></li>
+                        <li>Server IP is jes.earth</li>
+                        <li>Port is 19132</li>
                     </ul>`
     },
     {
@@ -183,10 +182,9 @@ const JOIN_INSTRUCTIONS = [
         "imageAlt": "",
         "content": `<h2>Xbox</h2>
                     <ul>
-                        <li>something</li>
-                        <li>something</li>
-                        <li>something</li>
-                        <li>something</li>
+                        <li>Follow the steps in <a href="https://youtu.be/eNv5Vrs0KOk">this video</a></li>
+                        <li>Server IP is jes.earth</li>
+                        <li>Port is 19132</li>
                     </ul>`
     },
     {
@@ -194,10 +192,9 @@ const JOIN_INSTRUCTIONS = [
         "imageAlt": "",
         "content": `<h2>Nintendo Switch</h2>
                     <ul>
-                        <li>something</li>
-                        <li>something</li>
-                        <li>something</li>
-                        <li>something</li>
+                        <li>Follow the steps in <a href="https://www.youtube.com/watch?v=aC9ujs5CIOo">this video</a></li>
+                        <li>Server IP is jes.earth</li>
+                        <li>Port is 19132</li>
                     </ul>`
     }
 ]
@@ -253,7 +250,7 @@ const FAQ = [
     },
     {
         "question": "Q: I've caught someone breaking the rules, where can I report him?",
-        "answer": `A: Join our support Discord and open a ticket : <a class="onhover-underline" href="https://discord.gg/8XvMCQuD26">https://discord.gg/8XvMCQuD26</a>.`
+        "answer": `A: Join our support Discord and open a ticket : <a href="https://discord.gg/8XvMCQuD26">https://discord.gg/8XvMCQuD26</a>.`
     },
 ];
 
