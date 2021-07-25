@@ -83,7 +83,7 @@
                     ${tile.html}
                 </div>
                 <div class="col-sm-5 h-100">
-                    <img alt="${tile.imageAlt}" class="img-fluid object-fit-${tile.objectFit} h-100 rounded w-100" src="${tile.imageURL}">
+                    <img alt="${tile.imageAlt}" class="img-fluid object-fit-${tile.objectFit} h-100 rounded w-100 pb-3" src="${tile.imageURL}">
                 </div>
             </div>
             `);
@@ -91,7 +91,7 @@
                 document.getElementById("imageTiles").insertAdjacentHTML("beforeend", `
             <div class="row${tile.dontFadeIn ? "" : " fade-in"} pb-3">
                 <div class="col-sm-5 h-100">
-                    <img alt="${tile.imageAlt}" class="img-fluid object-fit-${tile.objectFit} h-100 rounded w-100" src="${tile.imageURL}">
+                    <img alt="${tile.imageAlt}" class="img-fluid object-fit-${tile.objectFit} h-100 rounded w-100 pb-3" src="${tile.imageURL}">
                 </div>
                 <div class="col-sm-7 minecraft-font text-light h-100 pe-5">
                     ${tile.html}
