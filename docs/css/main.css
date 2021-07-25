@@ -1,0 +1,138 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+:root {
+    color-scheme: dark;
+    -webkit-color-scheme: dark;
+}
+
+.rem-2 {
+    font-size: 2rem;
+}
+
+@font-face {
+    font-family: "Minecraft";
+    src: url("../font/minecraft.ttf");
+}
+
+.navbar-logo {
+    width: 4rem !important;
+    height: 4rem !important;
+}
+
+.minecraft-font {
+    font-family: "Minecraft", sans-serif;
+}
+
+.nav-link {
+    font-family: "Minecraft", sans-serif;
+    font-size: 1.25rem;
+    /* text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black; */
+    color: white !important;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: lightgray !important;
+}
+
+.fullscreen-iframe {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+.server-background {
+    /*background-image: url("https://cdn.discordapp.com/splashes/767803717549948940/a5d734981dbe1488c6d93d4e59646dd4.jpg?size=2048");*/
+    background-position: center;
+    background-size: cover;
+}
+
+.onhover-underline:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.onhover-underline {
+    text-decoration: none;
+}
+
+.text-shadow {
+    text-shadow: 3px 0 0 black, -3px 0 0 black, 0 3px 0 black;
+}
+
+.text-shadow-small {
+    text-shadow: 1px 0 0 black, -1px 0 0 black, 0 1px 0 black;
+}
+
+.h-30 {
+    height: 30vh;
+}
+
+.h-40 {
+    height: 40vh;
+}
+
+.h-50 {
+    height: 50vh;
+}
+
+.object-fit-scale-down {
+    object-fit: scale-down;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.object-fit-fill {
+    object-fit: fill;
+}
+
+.object-fit-none {
+    object-fit: none;
+}
+
+.object-fit-contain {
+    object-fit: contain;
+}
+
+.blur-bg {
+    backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px);
+}
+@media (min-width: 767px) {
+    .text-right-desktop {
+        text-align: right;
+    }
+}
+
+#javaIPButton:hover {
+    text-shadow: none;
+}
+
+.fade-in {
+    opacity: 0;
+}
+
+.onhover-gray:hover {
+    color: lightgray !important;
+}
+
+.social-navbar {
+    color: white;
+    font-size: 1.5rem;
+}
+
+@media (max-width: 766px) {
+    .social-navbar {
+        font-size: 2rem;
+    }
+}
+
+a {
+    text-decoration: none;
+}
