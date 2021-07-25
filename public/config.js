@@ -119,7 +119,8 @@ const IMAGE_TILES = [
         `,
         "objectFit": "scale-down",  // what to use to make the image fit. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
         // ^^^ supported options are fill, contain, cover, none, or scale-down.
-        "imageAlt": ""  // description of the image that on some devices shows when hovering mouse over
+        "imageAlt": "",  // description of the image that on some devices shows when hovering mouse over
+        "dontFadeIn": true  // Don't include the tile in the fade animation
     },/*
     {
         "imagePosition": "right",
@@ -151,7 +152,8 @@ const IMAGE_TILES = [
         `,
         "objectFit": "cover",  // what to use to make the image fit. https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
         // ^^^ supported options are fill, contain, cover, none, or scale-down.
-        "imageAlt": ""  // description of the image that on some devices shows when hovering mouse over
+        "imageAlt": "",  // description of the image that on some devices shows when hovering mouse over
+        "dontFadeIn": true
     },
 ]
 
