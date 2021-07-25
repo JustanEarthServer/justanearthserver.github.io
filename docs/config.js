@@ -67,7 +67,7 @@ const HEADER = {
         },
         {
             "text": "Rules",
-            "url": "rules"
+            "url": "/rules.html"
         },
         {
             "text": "Shop",
